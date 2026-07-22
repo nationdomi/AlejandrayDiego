@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Alejandra y Diego//Boda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:boda-alejandra-diego-20261017@invitacion
+DTSTAMP:20260721T120000Z
+DTSTART:20261017T213000Z
+DTEND:20261018T043000Z
+SUMMARY:Boda de Alejandra y Diego
+DESCRIPTION:Tenemos el honor de invitar a la celebración de nuestro matrimonio. Código de vestimenta: Formal.
+LOCATION:Club Social de la Urbanización Ciudad del Mar\, Manta\, Ecuador
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Mañana es la boda de Alejandra y Diego
+END:VALARM
+END:VEVENT
+END:VCALENDAR
