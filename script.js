@@ -265,3 +265,19 @@ document.querySelectorAll(".copyable").forEach((btn) => {
     }, 2000);
   });
 });
+
+// Mostrar campo de alergias solo si confirman asistencia
+const attendanceSelect = document.getElementById('attendance');
+const alergiasField = document.getElementById('campo-alergias');
+const alergiasInput = document.getElementById('alergias');
+
+if (attendanceSelect && alergiasField) {
+  attendanceSelect.addEventListener('change', function() {
+    if (this.value === 'Sí, asistiré con gusto') {
+      alergiasField.style.display = 'block';
+    } else {
+      alergiasField.style.display = 'none';
+      alergiasInput.value = ''; // Borramos lo escrito si cambian de opinión y no van
+    }
+  });
+}
