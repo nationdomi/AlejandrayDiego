@@ -5,7 +5,7 @@
    ============================================================ */
 const DRIVE_FOLDER_ID = "1-jUoSLBWdCVIJQK2pyWdvdwGP2EF4dJO";
 const DRIVE_API_KEY = ""; // ← API key de Google Cloud para el slideshow
-const SHEETS_WEBAPP_URL = ""; // ← URL del Apps Script para RSVP en Google Sheets
+const SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwnH5BkvI9R7j1-oYZ0IBqDYF7UotgtJKCjD_F6tikzzVte1YnPsCnMeDEaJR8SxEcX/exec"; // ← URL del Apps Script para RSVP en Google Sheets
 const WEDDING_DATE = new Date("2026-10-17T16:30:00-05:00"); // Manta (UTC-5)
 
 /* ============================================================
